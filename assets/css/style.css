@@ -1,0 +1,14 @@
+body{
+    background-color: whitesmoke;
+}
+
+#h1{
+    color: aquamarine;
+}
+
+
+.myimages{
+    width: 200px;
+    height: 200px;
+    margin-right: 200px;
+}

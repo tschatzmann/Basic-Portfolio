@@ -1,14 +1,110 @@
 body{
     background-color: whitesmoke;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url(light-grey-terrazzo.png);
+  
 }
 
-#h1{
-    color: aquamarine;
+.mainheader{
+    position: fixed;
+    top: 0px;
+    background-color: #ffffff;
+    border: 10px #cccccc;
+    height: 75px;
+    width: 100%;
+    
+    
+}
+
+h1{
+    position: fixed;
+    left: 200px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
+}
+
+h2{
+    position: relative;
+    top: 0px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-bottom: 10px;
+
+}
+
+
+.aboutlink{
+    position: fixed;
+    right: 500px;
+    top: 30px;
+    background-color: #ffffff;
+  
+}
+
+.contactlink{
+    position: fixed;
+    right: 400px;
+    top: 30px;
+    background-color: #ffffff;
+
+}
+
+.portfoliolink{
+    position: fixed;
+    right: 295px;
+    top: 30px;
+    background-color: #ffffff;
+
+}
+
+.maincontent{
+    position: fixed;
+    top: 100px;
+    left: 200px;
+    background-color: #ffffff;
+    border: 10px #dddddd;
+    color: #777777;
+    width: 960px;
+    margin: 0 auto 0 auto;
+    padding: 40px;
+}
+.flexcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    position: fixed;
+    bottom: 5px;  
+    background-color: #666666;
+    width: 100%;
+    text-align: center;
+}
+
+.float1{
+    justify-content: flex-start;
+       
+
+}
+
+.float2{
+       
+    justify-content: flex-start; 
 }
 
 
 .myimages{
+    position: relative;
     width: 200px;
     height: 200px;
     margin-right: 200px;
+    
 }
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }

@@ -27,6 +27,8 @@ h1{
     top: -5px;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 2px;
+    border-bottom: 2px solid grey;
     
 }
 
@@ -92,21 +94,11 @@ h2{
     background-color: #666666;
     width: 100%;
     text-align: center;
-    border-top: 8px solid #4aaaa5
+    border-top: 8px solid #4aaaa5;
 }
-
-.float1{
-    float: left;      
-
-}
-
-.float2{
-    float: left; 
-}
-
 
 .myimages{
-    position: relative;
+   float: left;
     width: 200px;
     height: 200px;
     

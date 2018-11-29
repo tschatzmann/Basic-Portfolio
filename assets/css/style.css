@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: whitesmoke;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -10,8 +14,8 @@ body{
     position: fixed;
     top: 0px;
     background-color: #ffffff;
-    border: 10px #cccccc;
-    height: 75px;
+    border: 1px solid blue;
+    height: 45px;
     width: 100%;
     
     
@@ -20,6 +24,7 @@ body{
 h1{
     position: fixed;
     left: 200px;
+    top: -5px;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     
@@ -27,34 +32,40 @@ h1{
 
 h2{
     position: relative;
-    top: 0px;
+    top: -30px;
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding-bottom: 10px;
-
+    
 }
 
-
+.mylinks{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
 .aboutlink{
-    position: fixed;
+    position: absolute;
     right: 500px;
-    top: 30px;
+    top: 20px;
     background-color: #ffffff;
   
 }
 
 .contactlink{
-    position: fixed;
-    right: 400px;
-    top: 30px;
+    position: absolute;
+    right: 295px;
+    top: 20px;
     background-color: #ffffff;
 
 }
 
 .portfoliolink{
-    position: fixed;
-    right: 295px;
-    top: 30px;
+    position: absolute;
+    right: 400px;
+    top: 20px;
     background-color: #ffffff;
 
 }
@@ -64,7 +75,7 @@ h2{
     top: 100px;
     left: 200px;
     background-color: #ffffff;
-    border: 10px #dddddd;
+    border: 1px solid red;
     color: #777777;
     width: 960px;
     margin: 0 auto 0 auto;
@@ -81,17 +92,19 @@ h2{
     background-color: #666666;
     width: 100%;
     text-align: center;
+    border-top: 8px solid #4aaaa5
 }
 
 .float1{
-    justify-content: flex-start;
+    position: relative;
+    float: left;
        
 
 }
 
 .float2{
-       
-    justify-content: flex-start; 
+    position: relative;   
+    float: left; 
 }
 
 
@@ -99,7 +112,6 @@ h2{
     position: relative;
     width: 200px;
     height: 200px;
-    margin-right: 200px;
     
 }
 
@@ -108,3 +120,80 @@ h2{
     display: block;
     clear: both;
   }
+
+  .contactform{
+      display: table;
+      display: table-row;
+
+  }
+
+  .inputlabel{
+    display: block;
+      padding-top: 25px;
+  }
+  .input{
+      width: 885px;
+  }
+
+  .submit{
+      background-color: #4aaaa5;
+      padding: 5px;
+  }
+
+  .absolute{
+    background: #4aaaa5;
+    width: 200px;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    left: 10px;
+    bottom: 10px;
+  }
+
+  .portfolioimage1{
+        position: relative;
+        width: 200px;
+        height: 200px;
+                
+    }
+    .portfolioimage2{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        
+    }
+
+       
+       .portfolioimage3{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 200px;
+        bottom: 45px;
+           
+    }
+
+    .portfolioimage4{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+         
+    }
+    .portfolioimage5{
+        width: 200px;
+        height: 200px;
+   
+        
+    }
+    .portfoliocontent{
+        position: fixed;
+        top: 80px;
+        left: 200px;
+        background-color: #ffffff;
+        border: 1px solid red;
+        color: #777777;
+        width: 960px;
+        margin: 0 auto 0 auto;
+        padding: 10px;
+
+    }

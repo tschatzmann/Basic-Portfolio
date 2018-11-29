@@ -9,22 +9,44 @@
     <link rel="stylesheet" href="assets\css\style.css">
 </head>
 <body>
-    <section class="header">
-            <div class="mainheader">
-            <h1>Tamekia Schatzmann</h1>
-            <div class="aboutlink">
-                    <a href="index.html">About</a>
-               </div>
-               <div class="contactlink">
-                    <a href="contact.html">Contact</a>
-               </div>
-               <div class="portfoliolink">
-                    <a href="portfolio.html">Portfolio</a>
-                </div>
-                </div>
+        <section class="header">
+                <div class="mainheader">
+                <h1>Tamekia Schatzmann</h1>
+                    <div class="aboutlink">
+                        <a href="index.html">About</a>
+                        </div>
+                       <div class="portfoliolink">
+                        <a href="portfolio.html">Portfolio</a>
+                        </div>
+                       <div class="contactlink">
+                        <a href="contact.html">Contact</a>
+                        </div>
+                    </div>
+            </section>
+        <section class="ContactContent">
+            <div class="maincontent">
+                <h2>Contact</h2>
+                <hr>
+                <form>
+                    <label class="inputlabel">
+                            Name:<br>
+                    </label>
+                    <input class="input" type="text" name="firstname" required minlength="4" maxlength="40"><br>
+                    <br>
+                    Email:<br>
+                    <input class="input" type="email" name="email"><br>
+                    <br>
+                    Message:<br>
+                    <textarea class="input" name="message" rows="10" cols="30">
+
+                    </textarea>
+                    <br>
+                    <input class="submit" type="submit" value="Submit">
+                </form>
+            </div>
         </section>
         <section class="footer" >
-                <p>&copy Copywrite;<p>
+                <p>Copywrite &copy <p>
            </section>
 </body>
 </html>

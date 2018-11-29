@@ -96,14 +96,12 @@ h2{
 }
 
 .float1{
-    position: relative;
     float: left;
        
 
 }
 
 .float2{
-    position: relative;   
     float: left; 
 }
 
@@ -147,41 +145,49 @@ h2{
     padding: 10px;
     text-align: center;
     left: 10px;
-    bottom: 10px;
+    bottom: 405px;
   }
 
   .portfolioimage1{
         position: relative;
         width: 200px;
         height: 200px;
+        padding: 10px;
                 
     }
     .portfolioimage2{
         position: relative;
         width: 200px;
         height: 200px;
+        padding: 10px;
         
     }
 
        
        .portfolioimage3{
-        position: absolute;
+        position: relative;
         width: 200px;
         height: 200px;
-        left: 200px;
-        bottom: 45px;
+        padding: 10px;
            
     }
 
     .portfolioimage4{
         position: absolute;
+        top: 85px;
+        left: 220px;
         width: 200px;
         height: 200px;
+        padding: 10px;
          
     }
     .portfolioimage5{
+        position: absolute;
         width: 200px;
         height: 200px;
+        top: 295px;
+        left: 220px;
+        padding: 10px;
    
         
     }
@@ -195,5 +201,5 @@ h2{
         width: 960px;
         margin: 0 auto 0 auto;
         padding: 10px;
-
+        
     }

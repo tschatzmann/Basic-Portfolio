@@ -27,8 +27,6 @@ h1{
     top: -5px;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 2px;
-    border-bottom: 2px solid grey;
     
 }
 
@@ -37,6 +35,8 @@ h2{
     top: -30px;
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 2px;
+    border-bottom: 2px solid grey;
     
 }
 

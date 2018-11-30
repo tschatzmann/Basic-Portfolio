@@ -139,20 +139,28 @@ h2{
     bottom: 405px;
   }
 
-  .portfolioimage1{
-        position: relative;
-        width: 200px;
-        height: 200px;
-        padding: 10px;
+    .portfolioimage1 h3 {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 0;
+        font-weight: 300;
+        line-height: 30px;
+        color: #ffffff;
+        text-align: center;
+        background: #4aaaa5;
+        border-bottom: 0;
                 
     }
-    .portfolioimage2{
+    .portfolioimage1 {
         position: relative;
+        float: left;
+             margin: 20px 0 25px;
+        overflow: auto;
         width: 200px;
         height: 200px;
-        padding: 10px;
-        
-    }
+      }
 
        
        .portfolioimage3{
@@ -182,7 +190,7 @@ h2{
    
         
     }
-    .portfoliocontent{
+   /* .portfoliocontent{
         position: fixed;
         top: 80px;
         left: 200px;
@@ -192,5 +200,14 @@ h2{
         width: 960px;
         margin: 0 auto 0 auto;
         padding: 10px;
-        
-    }
+       */
+
+    .portfoliocontent {
+        float: left;
+        width: 100%;
+        max-width: 960px;
+        padding: 30px;
+        margin: 0 0 40px;
+        background: #ffffff;
+        border: 1px solid #dddddd;
+      }

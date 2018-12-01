@@ -82,10 +82,7 @@ h2{
     width: 960px;
     margin: 0 auto 0 auto;
     padding: 40px;
-}
-.flexcontainer{
-    display: flex;
-    flex-direction: column;
+    
 }
 
 .footer{
